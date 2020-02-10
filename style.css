@@ -219,7 +219,7 @@ input{
 .ex-4-square {
     width: 100px;
     height: 100px;
-    background: red;
+    background: #d63031;
     cursor: pointer;
     transition: 0.4s;
 }
@@ -228,12 +228,25 @@ input{
     transform: scale(500%);
 }
 /* fine esercizio 4 */
+
+/* esercizio 5 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
-    background: red;
+    background: #d63031;
+    cursor: pointer;
+    transition: 0.2s;
 }
+.ex-5-square:hover {
+    transform: scale(150%);
+}
+.ex-5-square:active {
+    transform: scale(120%);
+    opacity: 0.9;
+    border-radius: 5px;
+}
+/* fine esercizio 5 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
