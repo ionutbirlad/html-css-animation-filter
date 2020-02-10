@@ -178,17 +178,43 @@ input{
 .ex-3-square {
     width: 100px;
     height: 100px;
-    background: red;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: 0.4s;
+    overflow: hidden;
 }
-
-
-
-
-
-
-
-
+.ex-3-square:hover{
+  border-radius: 100px;
+}
+.ex-3-square::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: #d63031;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.4s;
+    right: 100%;
+}
+.ex-3-square::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: #d63031;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.4s;
+    left: 100%;
+}
+.ex-3-square:hover::before{
+  right: 50%;
+}
+.ex-3-square:hover::after{
+  left: 50%;
+ }
 /* fine esercizio 3 */
+
 .ex-4-square {
     width: 100px;
     height: 100px;
