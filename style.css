@@ -266,19 +266,30 @@ input{
   transform: scale(110%);
   border-radius: 10px;
 }
-
-
-
-
-
-
-
 /* fine esercizio 6-7-8 */
 
+/* esercizio 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    cursor: pointer;
+    transition: 0.4s;
 }
+.ex-9-img:hover {
+    filter: sepia(100%) brightness(110%);
+    border-radius: 10px;
+    transform: scale(105%);
+}
+
+
+
+
+
+
+
+
+
+/* fine esercizio 9 */
 .ex-10-icon {
     font-size: 60px;
 }
