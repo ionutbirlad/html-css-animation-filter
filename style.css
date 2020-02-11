@@ -280,19 +280,22 @@ input{
     border-radius: 10px;
     transform: scale(105%);
 }
-
-
-
-
-
-
-
-
-
 /* fine esercizio 9 */
+
+/* esercizio 10 */
 .ex-10-icon {
     font-size: 60px;
+    cursor: pointer;
 }
+.ex-10-icon:hover {
+    animation: rotate 0.7s infinite;
+}
+@keyframes rotate {
+  100%{
+    transform: rotate(360deg);
+  }
+}
+/* fine esercizio 10 */
 .ex-11-icon {
     font-size: 60px;
 }
